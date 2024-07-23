@@ -1,0 +1,58 @@
+.topics {
+    padding: 5rem 3rem;
+}
+
+.topics .topic {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.topics .topic .left,
+.topics .topic .right {
+    flex: 1;
+}
+
+.topics .topic .left img {
+    max-width: 100%;
+}
+
+.topics li {
+    font-family: "Grandstander", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.topics li:nth-child(even),
+.topics li span {
+    color: var(--secondary);
+}
+
+.topics .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media (width >= 600px) {
+    .topics .topic {
+        flex-direction: row;
+    }
+
+    .topics li {
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+
+    .topics .button {
+        width: auto;
+    }
+
+    .topics .topic .reverse {
+        flex-direction: row-reverse;
+    }
+}
