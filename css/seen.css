@@ -1,0 +1,22 @@
+.seen {
+    background-color: var(--foreground);
+    padding: 3rem;
+}
+
+.seen .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+}
+
+.seen .container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width >= 600px) {
+    .seen .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
