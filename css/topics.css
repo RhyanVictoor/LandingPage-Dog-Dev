@@ -42,6 +42,9 @@
     .topics .topic {
         flex-direction: row;
     }
+    .topics .topic.reverse {
+        flex-direction: row-reverse;
+    }
 
     .topics li {
         font-size: 6rem;
@@ -50,9 +53,5 @@
 
     .topics .button {
         width: auto;
-    }
-
-    .topics .topic .reverse {
-        flex-direction: row-reverse;
     }
 }
