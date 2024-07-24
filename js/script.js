@@ -13,3 +13,14 @@ menuOpener.addEventListener("click", () => {
         menuOpener.querySelector(".hamburger-icon").style.display = "none";
     }
 });
+
+//testimonials
+let testimonials = [
+    { quote: '"frase de exemplo"', origin: "cbs.svg" },
+    { quote: '"frase de exemplo"', origin: "cbs.svg" },
+    { quote: '"frase de exemplo"', origin: "cbs.svg" },
+    { quote: '"frase de exemplo"', origin: "cbs.svg" },
+];
+
+let testimonialQuote = document.querySelector(".testimonials .quote");
+let testimonialIcons = document.querySelector(".testimonials .icons");
