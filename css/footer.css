@@ -1,0 +1,46 @@
+footer {
+    margin-top: 6rem;
+}
+
+footer .container {
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+footer nav p {
+    font-weight: bold;
+}
+
+footer nav li {
+    margin: 1rem 0;
+}
+
+footer nav a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .bar {
+    background-color: var(--foreground);
+    text-align: center;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+}
+
+@media (width >= 600px){
+  footer .container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px){
+  footer .container{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
