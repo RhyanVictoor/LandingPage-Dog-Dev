@@ -1,0 +1,23 @@
+.testimonials {
+    background-color: var(--foreground);
+    color: var(--primary);
+}
+
+.testimonials .container {
+    max-width: 60rem;
+}
+
+.testimonials .quote {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 5rem;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.testimonials .icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    margin: auto;
+}
