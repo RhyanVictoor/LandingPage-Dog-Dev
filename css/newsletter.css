@@ -36,3 +36,10 @@
     background-color: var(--foreground);
     outline: none;
 }
+
+@media (width >= 600px) {
+    .newsletter form {
+        flex-direction: row;
+        max-width: 60rem;
+    }
+}
