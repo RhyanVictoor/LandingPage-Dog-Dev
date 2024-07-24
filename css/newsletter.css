@@ -1,0 +1,38 @@
+.newsletter {
+    background-color: var(--foreground);
+    margin-top: 6rem;
+    padding: 5rem 0;
+}
+
+.newsletter .container {
+    padding: 0 3rem;
+}
+
+.newsletter h2 {
+    font-family: "Grandstander", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.newsletter h2 span {
+    color: var(--secondary);
+}
+
+.newsletter form {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--secondary);
+    background-color: var(--foreground);
+    outline: none;
+}

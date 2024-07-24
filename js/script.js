@@ -70,5 +70,25 @@ const nextTestimonial = () => {
         fillTestimonial(0);
     }
 };
-
 nextTestimonial();
+
+//faq
+let currentFaq = 0;
+let faqItems = document.querySelectorAll(".faq .accordion .item");
+faqItems.forEach((el, index) => {
+    el.querySelector(".title").addEventListener("click", () => setFaq(index));
+});
+
+const setFaq = (index) => {
+    currentFaq = index;
+
+    if (faqItems[currentFaq].classList.contains("opened")) {
+        faqItems[currentFaq].classList.remove("opened");
+        return;
+    }
+
+    for (let item of faqItems) {
+        item.classList.remove("opened");
+    }
+    faqItems[currentFaq].classList.add("opened");
+};
