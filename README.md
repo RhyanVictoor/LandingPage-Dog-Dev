@@ -6,6 +6,7 @@ Este projeto é uma demonstração dos meus conhecimentos em JavaScript e desenv
 -----------------------------------------------------------------------------------------------
 
 **Funcionalidades:**
+
 Animações
 
 Responsividade
