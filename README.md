@@ -1,28 +1,29 @@
-**Dog Dev**
+# LandingPage Dog Dev
 
-Bem-vindo ao repositório da Dog Dev!
-Este projeto é uma demonstração dos meus conhecimentos em JavaScript e desenvolvimento web.
+Este é o repositório da landing page dog dev desenvolvido com HTML, CSS e JavaScript
 
------------------------------------------------------------------------------------------------
+## Funcionalidades
 
-**Funcionalidades:**
+- Animações.
+- Responsividade.
+- Carrossel.
 
-Animações
+## Como Usar
 
-Responsividade
+1. Abra o arquivo `index.html` em seu navegador da web.
 
-Carrossel 
+## Pré-requisitos
 
------------------------------------------------------------------------------------------------
+Não há pré-requisitos específicos para utilizar.
 
-**Tecnologias Utilizadas:**
+## Contribuindo
 
-HTML: Estruturação da página.
+Este é um projeto de código aberto e contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, relatar problemas ou enviar solicitações de pull.
 
-CSS: Estilização e layout.
+## Tecnologias Utilizadas
 
-JavaScript: Lógica e interatividade.
-
-https://landing-page-dog-dev.vercel.app/
+- HTML: Estruturação da página.
+- CSS: Estilização e layout.
+- JavaScript: Lógica e interatividade.
 
 ![foto](https://github.com/RhyanVictoor/LandingPage-Dog-Dev/blob/main/imagens/Captura%20de%20tela%202024-08-05%20185054.png?raw=true)
